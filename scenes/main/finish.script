@@ -1,0 +1,10 @@
+go.property("gui", msg.url())
+go.property("player", msg.url())
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("collision_response") then
+		print("gocha")
+		msg.post(self.gui, "enable")
+		msg.post(self.player, "disable")
+	end
+end

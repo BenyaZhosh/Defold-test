@@ -1,0 +1,8 @@
+go.property("cars", msg.url())
+
+function on_message(self, message_id, message)
+	if message_id == hash("reload_car") then
+		msg.post(self.cars, "reload_car")
+		msg.post(self.cars, "enable")
+	end
+end

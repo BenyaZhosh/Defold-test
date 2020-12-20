@@ -1,0 +1,40 @@
+go.property("left_edge", 0)
+go.property("right_edge", 0)
+go.property("top_edge", 0)
+go.property("down_edge", 0)
+go.property("x_shift", 0)
+go.property("y_shift", 0)
+go.property("zoom", 1)
+go.property("player", msg.url())
+
+function init(self)
+	msg.post("#camera", "acquire_camera_focus")
+	msg.post("@render:", "use_fixed_projection", { zoom = self.zoom, near = -1, far = 1 })
+	
+	self.left_edge = self.left_edge + self.x_shift
+	self.right_edge = self.right_edge + self.x_shift
+	self.top_edge = self.top_edge + self.y_shift
+	self.down_edge = self.down_edge + self.y_shift
+end
+
+function update(self, dt)
+	msg.post("@render:", "clear_color", { color = vmath.vector4(0.2, 0.2, 0.2, 1) })
+
+	local player_position = go.get_position(self.player)
+	
+	player_position.x = player_position.x + self.x_shift
+	player_position.y = player_position.y + self.y_shift
+	
+	if player_position.x < self.left_edge then
+		player_position.x = self.left_edge
+	elseif player_position.x > self.right_edge then
+		player_position.x = self.right_edge
+	end
+	if player_position.y < self.down_edge then
+		player_position.y = self.down_edge
+	elseif player_position.y > self.top_edge then
+		player_position.y = self.top_edge
+	end
+
+	go.set_position(vmath.vector3(player_position.x, player_position.y, 0), "camera")
+end

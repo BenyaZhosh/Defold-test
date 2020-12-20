@@ -1,0 +1,11 @@
+go.property("next_point", msg.url())
+
+function init(self)
+	msg.post("#sprite", "disable")
+end
+
+function on_message(self, message_id, message)
+	if message_id == hash("trigger_response") and message.enter then
+		msg.post(message.other_id, "new_direction", { next_point = self.next_point })
+	end
+end

@@ -1,0 +1,34 @@
+[project]
+title = Mobile game
+
+[bootstrap]
+main_collection = /scenes/main/main.collectionc
+
+[input]
+game_binding = /input/game.input_bindingc
+use_accelerometer = 0
+
+[display]
+width = 640
+height = 1280
+
+[ios]
+app_icon_57x57 = /assets/app_icons/icon_57.png
+app_icon_114x114 = /assets/app_icons/icon_114.png
+app_icon_72x72 = /assets/app_icons/icon_72.png
+app_icon_144x144 = /assets/app_icons/icon_144.png
+bundle_identifier = com.example.todo
+
+[osx]
+bundle_identifier = com.example.todo
+
+[android]
+input_method = HiddenInputField
+
+[script]
+shared_state = 1
+
+[physics]
+gravity_y = -1000.0
+scale = 0.01
+

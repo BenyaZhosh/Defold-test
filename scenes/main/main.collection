@@ -1,0 +1,1456 @@
+name: "main"
+instances {
+  id: "enemy_path_point"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 514.0
+    y: 185.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point1"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point1"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 462.0
+    y: 265.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point2"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point2"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 439.0
+    y: 341.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point3"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point3"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 459.0
+    y: 418.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point4"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point4"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 485.0
+    y: 470.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point5"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point5"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 488.0
+    y: 522.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point6"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point6"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 489.0
+    y: 677.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point7"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point7"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 502.0
+    y: 732.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point8"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point8"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 530.0
+    y: 773.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point9"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point9"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 650.0
+    y: 893.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point10"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 290.0
+    y: 171.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point1"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point1"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 299.0
+    y: 235.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point2"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point2"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 340.0
+    y: 288.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point3"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point3"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 458.0
+    y: 415.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point4"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point4"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 485.0
+    y: 467.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point5"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point5"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 488.0
+    y: 520.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point6"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point6"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 488.0
+    y: 675.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point7"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point7"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 466.0
+    y: 714.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point8"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point8"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 427.0
+    y: 752.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point9"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point9"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 379.0
+    y: 770.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point10"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point10"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 329.0
+    y: 739.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point11"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point11"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 292.0
+    y: 688.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point12"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point12"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 282.0
+    y: 517.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point13"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point13"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 259.0
+    y: 478.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point14"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point14"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 219.0
+    y: 454.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point15"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point15"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 173.0
+    y: 446.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point16"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point16"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 125.0
+    y: 455.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point17"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point17"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 90.0
+    y: 486.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point18"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point18"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 75.0
+    y: 532.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point19"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point19"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 75.0
+    y: 813.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point20"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point20"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 88.0
+    y: 854.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point21"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point21"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 121.0
+    y: 895.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point22"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point22"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 210.0
+    y: 965.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point23"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point23"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 247.0
+    y: 1017.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point24"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point24"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 257.0
+    y: 1072.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point25"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "path_point25"
+  prototype: "/prefabs/path/player_path_point.go"
+  position {
+    x: 257.0
+    y: 1428.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/path_point"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "car"
+  prototype: "/prefabs/cars/player/player_car.go"
+  position {
+    x: 290.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "car_movement"
+    properties {
+      id: "speed"
+      value: "100.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "turning_speed"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  component_properties {
+    id: "player_death"
+    properties {
+      id: "loader"
+      value: "/loader#loader"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_car"
+  prototype: "/prefabs/cars/enemies/enemy_car.go"
+  position {
+    x: 573.0
+    y: 119.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.34202015
+    w: 0.9396926
+  }
+  component_properties {
+    id: "enemy_car"
+    properties {
+      id: "speed"
+      value: "50.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+    properties {
+      id: "turning_speed"
+      value: "3.0"
+      type: PROPERTY_TYPE_NUMBER
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "enemy_path_point10"
+  prototype: "/prefabs/path/enemy_path_point.go"
+  position {
+    x: 878.0
+    y: -120.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "point_direction"
+    properties {
+      id: "next_point"
+      value: "/enemy_path_point"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+instances {
+  id: "finish"
+  prototype: "/scenes/main/finish.go"
+  position {
+    x: -65.0
+    y: 711.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  component_properties {
+    id: "finish"
+    properties {
+      id: "gui"
+      value: "/gui#main_gui"
+      type: PROPERTY_TYPE_URL
+    }
+    properties {
+      id: "player"
+      value: "/car"
+      type: PROPERTY_TYPE_URL
+    }
+  }
+  scale3 {
+    x: 3.0
+    y: 3.0
+    z: 3.0
+  }
+}
+scale_along_z: 0
+embedded_instances {
+  id: "map"
+  children: "finish"
+  data: "embedded_components {\n"
+  "  id: \"map\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/scenes/main/main.atlas\\\"\\n"
+  "default_animation: \\\"map\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: -1.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 320.0
+    y: 640.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "camera"
+  data: "components {\n"
+  "  id: \"camera_following\"\n"
+  "  component: \"/camera/camera_following.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"left_edge\"\n"
+  "    value: \"100.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"right_edge\"\n"
+  "    value: \"450.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"top_edge\"\n"
+  "    value: \"1000.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"down_edge\"\n"
+  "    value: \"140.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"x_shift\"\n"
+  "    value: \"-290.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"y_shift\"\n"
+  "    value: \"-600.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"zoom\"\n"
+  "    value: \"5.0\"\n"
+  "    type: PROPERTY_TYPE_NUMBER\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"player\"\n"
+  "    value: \"/car\"\n"
+  "    type: PROPERTY_TYPE_URL\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"camera\"\n"
+  "  type: \"camera\"\n"
+  "  data: \"aspect_ratio: 1.0\\n"
+  "fov: 0.7854\\n"
+  "near_z: -1.0\\n"
+  "far_z: 1.0\\n"
+  "auto_aspect_ratio: 0\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "loader"
+  data: "components {\n"
+  "  id: \"loader\"\n"
+  "  component: \"/scenes/main/loader.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"cars\"\n"
+  "    value: \"/car\"\n"
+  "    type: PROPERTY_TYPE_URL\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "gui"
+  data: "components {\n"
+  "  id: \"main_gui\"\n"
+  "  component: \"/gui/main_gui.gui\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "enemy_path1"
+  children: "enemy_path_point"
+  children: "enemy_path_point1"
+  children: "enemy_path_point10"
+  children: "enemy_path_point2"
+  children: "enemy_path_point3"
+  children: "enemy_path_point4"
+  children: "enemy_path_point5"
+  children: "enemy_path_point6"
+  children: "enemy_path_point7"
+  children: "enemy_path_point8"
+  children: "enemy_path_point9"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "player_path"
+  children: "path_point"
+  children: "path_point1"
+  children: "path_point10"
+  children: "path_point11"
+  children: "path_point12"
+  children: "path_point13"
+  children: "path_point14"
+  children: "path_point15"
+  children: "path_point16"
+  children: "path_point17"
+  children: "path_point18"
+  children: "path_point19"
+  children: "path_point2"
+  children: "path_point20"
+  children: "path_point21"
+  children: "path_point22"
+  children: "path_point23"
+  children: "path_point24"
+  children: "path_point25"
+  children: "path_point3"
+  children: "path_point4"
+  children: "path_point5"
+  children: "path_point6"
+  children: "path_point7"
+  children: "path_point8"
+  children: "path_point9"
+  data: ""
+  position {
+    x: -1.0
+    y: -2.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "cars"
+  children: "car"
+  children: "enemy_car"
+  data: ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

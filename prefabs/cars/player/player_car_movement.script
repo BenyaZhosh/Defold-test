@@ -1,0 +1,47 @@
+go.property("speed", 100)
+go.property("turning_speed", 1)
+
+local start_position
+
+function init(self)
+	msg.post(".", "acquire_input_focus")
+
+	self.turning_speed = self.turning_speed * self.speed / 100
+	
+	self.is_moving = false
+	self.direction = vmath.quat()
+	self.actual_direction = vmath.quat()
+
+	start_position = go.get_position()
+end
+
+function update(self, dt)
+	if self.is_moving then
+		if self.actual_direction ~= self.direction then
+			self.actual_direction = vmath.slerp(dt * self.turning_speed, self.actual_direction, self.direction)
+			go.set_rotation(self.actual_direction)
+		end
+		local delta_position = vmath.rotate(self.direction, vmath.vector3(0, 1, 0)) * self.speed * dt
+		go.set_position(go.get_position() + delta_position)
+		self.is_moving = false
+	end
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("new_direction") then
+		local new_direction_vector = vmath.normalize(go.get_position(message.next_point) - go.get_position(message.other_id))
+		self.direction = vmath.quat_from_to(vmath.vector3(0, 1, 0), new_direction_vector)
+	elseif message_id == hash("reload_car") then
+		go.set_position(start_position)
+		self.is_moving = false
+		self.direction = vmath.quat()
+		self.actual_direction = vmath.quat()
+		go.set_rotation(self.actual_direction)
+	end
+end
+
+function on_input(self, action_id, action)
+	if action_id == hash("touch") then
+		self.is_moving = true
+	end
+end
